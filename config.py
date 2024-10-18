@@ -8,24 +8,24 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "22519172"))
+API_HASH = getenv("API_HASH", "ffe9dd332d6e8efda845ad8e641a8ec1")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "7121054769:AAHNgUmA6E5Bny2Z3R8rAqdrOUonwEGz2No")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://toxichina:toxichina@cluster0.reizw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Hina Music ✨")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001392902114"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
+OWNER_ID = int(getenv("OWNER_ID", "5195444280"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/haxkx")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/haxkx_discussion")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = getenv("STRING_SESSION",  "BQFXnYQASsQfHyJSLTuzbGrzAAMm6aMbRsruDaUOichwUXKmIoBRA7M38xYmXe_mz_XxkUfzPa0Wj3LbjkC0hc5k2f9vnyEYso1_W37v0CChRPPTMJEZVva9tz4LWYAsMLWAE2GzNJ3q7VCI8K8SNUg9zMCpaNZSLJZ8H6rM_5-CfXDj51FTolt1FZfgRUl8g_lHpqLwwhh9Ddoz24gFxyO3YKubbGHJt23_sjeGR61OjyysKhM4tkvN3o2BwKEMGxvaHQyDQmYrX2jrgaOtAOxqVqEN5T0_rv0jA9iW-Wx0MJxgi-6D8EfRMF_LaRtJdQljfpVm3gOigJ-KanbOrU8O1lFdJQAAAAGKBGSZAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -89,21 +89,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://graph.org/file/7ab5ed9bfbbc5a060392e.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
+    "PING_IMG_URL", "https://graph.org/file/89cb23a04d6bb7c7a20ab.mp4"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/4310ea5f523520b2b765b.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/d339f390ec168c19879c6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ee0cd53ab73f08f4a3627.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/5f9fb5bba66021c782d96.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/affe0afec5c7ad63676a4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/3c446e8dee78ed0ca62ff.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/49379e9fe323b923a2dc4.jpg"
+STATS_IMG_URL = "https://graph.org/file/709fdd164660d5add7b5f.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/244e7569f41400dd0e024.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/851a9a173ea0bbe740e4c.jpg"
+STREAM_IMG_URL = "https://graph.org/file/1a4e7f09f968d9207a291.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/8bd25e1b5fffb97ea343e.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/18ba535b174ac0649b23b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/3434af0772e3ed4e4f27c.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/1bfce7a64228c69e43802.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/6e59e4dbcb74fec678d10.jpg"
 
 
 def time_to_seconds(time):
@@ -124,4 +124,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
